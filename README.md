@@ -5,7 +5,7 @@
 
 Quick and easy advanced ABAP code snippets you can use to help speed up your development. For example, if you need to create an instance class on the fly then we've got you covered! 
 
-![Demo] (./media/gif.gif)
+![Demo] (/media/gif.gif)
 
 ## Requirements
 
