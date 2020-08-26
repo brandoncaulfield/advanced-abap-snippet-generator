@@ -1,0 +1,35 @@
+{
+    "name": "advanced-abap-snippet-generator",
+    "displayName": "Advanced ABAP snippet generator",
+    "description": "Advanced ABAP Code Snippets you can use to help speed up your development :)",
+    "version": "1.0.0",
+    "publisher": "Brandon Caulfield",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brandoncaulfield/advanced-abap-snippet-generator"
+    },
+    "keywords": [
+        "ABAP",
+        "sap"
+      ],
+      "extensionDependencies": [
+        "larshp.vscode-abap",
+        "frehu.abap-snippets",
+        "hudakf.cds"
+      ],
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "abap",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
