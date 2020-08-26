@@ -1,6 +1,6 @@
 {
   "Class_Instance": {
-    "prefix": "(ADV)instance class",
+    "prefix": "(adv)instance class",
     "body": [
       "CLASS lcl_${TM_FILENAME/[\\.-]/_/g} DEFINITION CREATE PRIVATE FINAL.",
       "",
@@ -34,24 +34,8 @@
     ],
     "description": "Instance class scafolding"
   },  
-  "Class_Basic": {
-    "prefix": "(ADV)class",
-    "body": [
-        "CLASS lcl_${TM_FILENAME/[\\.-]/_/g} DEFINITION CREATE PRIVATE FINAL.",
-        "",
-        "PUBLIC SECTION.",
-        "PROTECTED SECTION.",
-        "PRIVATE SECTION.",
-        "ENDCLASS.",
-        "",
-        "CLASS lcl_${TM_FILENAME/[\\.-]/_/g} IMPLEMENTATION.",
-        "",
-        "ENDCLASS.",
-    ],
-    "description": "Basic Class Scafolding"
-  },
   "Class_ALV": {
-    "prefix": "(ADV)ALV class",
+    "prefix": "(adv)ALV class",
     "body": [
       "CLASS lcl_${TM_FILENAME/[\\.-]/_/g} DEFINITION CREATE PRIVATE FINAL.",
       "",
@@ -104,4 +88,22 @@
       "ENDCLASS."
     ],
     "description": "ALV class scafolding"
-  }
+  },
+  "Class_Simple": {
+    "prefix": "(adv)class",
+    "body": [
+      "CLASS lcl_${TM_FILENAME/[\\.-]/_/g} DEFINITION CREATE PRIVATE FINAL.",
+      "",
+      "PUBLIC SECTION.",
+      "PROTECTED SECTION.",
+      "PRIVATE SECTION.",
+      "",
+      "ENDCLASS.",
+      "",
+      "CLASS lcl_${TM_FILENAME/[\\.-]/_/g} IMPLEMENTATION.",
+      "",
+      "ENDCLASS."
+    ],
+    "description": "Simple class scafolding"
+  },
+}
