@@ -15,7 +15,8 @@
       "extensionDependencies": [
         "larshp.vscode-abap",
         "frehu.abap-snippets",
-        "hudakf.cds"
+        "hudakf.cds",
+        "murbani.vscode-abap-remote-fs"
       ],
     "icon": "icon.png",
     "engines": {
