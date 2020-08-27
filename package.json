@@ -2,7 +2,7 @@
     "name": "advanced-abap-snippet-generator",
     "displayName": "Advanced ABAP snippet generator",
     "description": "Advanced ABAP Code Snippets you can use to help speed up your development :)",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "publisher": "BrandonCaulfield",
     "repository": {
         "type": "git",
