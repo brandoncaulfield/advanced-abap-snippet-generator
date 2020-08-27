@@ -1,6 +1,27 @@
 {
+  "Comment Header Simple": {
+    "prefix": "comment_hdr_01",
+    "body": [
+      "*----------------------------------------------------------*",
+      "* Title or class name",
+      "*----------------------------------------------------------*",
+    ],
+    "description": "(ADV ABAP)Simple comment header"
+  },
+  "Comment Header Normal": {
+    "prefix": "comment_hdr_02",
+    "body": [
+      "*----------------------------------------------------------*",
+      "* Some Title",
+      "*",
+      "*----------------------------------------------------------*",
+      "* Description or class name",
+      "*----------------------------------------------------------*",
+    ],
+    "description": "(ADV ABAP)Normal comment header"
+  },
   "Class_Instance": {
-    "prefix": "(adv)instance class",
+    "prefix": "class_instance",
     "body": [
       "CLASS lcl_${TM_FILENAME/[\\.-]/_/g} DEFINITION CREATE PRIVATE FINAL.",
       "",
@@ -21,21 +42,18 @@
       "",
       "\tMETHOD create.",
       "\t\tro_obj = NEW lcl_${TM_FILENAME/[\\.-]/_/g}( ).",
-      "",
       "\tENDMETHOD.",
       "",
       "\tMETHOD run.",
-      "",
       "\t\tcl_demo_output=>display( |Hello World!| ).",
-      "",
       "\tENDMETHOD.",
       "",
       "ENDCLASS."
     ],
-    "description": "Instance class scafolding"
+    "description": "(ADV ABAP)Instance class scafolding"
   },  
   "Class_ALV": {
-    "prefix": "(adv)ALV class",
+    "prefix": "class_alv",
     "body": [
       "CLASS lcl_${TM_FILENAME/[\\.-]/_/g} DEFINITION CREATE PRIVATE FINAL.",
       "",
@@ -57,19 +75,14 @@
       "CLASS lcl_${TM_FILENAME/[\\.-]/_/g} IMPLEMENTATION.",
       "",
       "\tMETHOD create.",
-      "",
       "\t\tro_obj_name = NEW lcl_${TM_FILENAME/[\\.-]/_/g}( ).",
-      "",
       "\tENDMETHOD.",
       "",
       "\tMETHOD get_data.",
-      "",
-      "\t\t\"Get your data here then add it to \"display table...\" in the display_data meth"
-      "",
+      "\t\t\"Get your data here then add it to \"display table...\" in the display_data meth",
       "\tENDMETHOD.",
       "",
       "\tMETHOD display_data.",
-      "",
       "\t\tTRY.",
       "\t\tcl_salv_table=>factory(",
       "\t\t\tIMPORTING",
@@ -82,15 +95,14 @@
       "\t\tENDTRY.",
       "",
       "\t\tlo_alv->display( ).",
-      "",
       "\tENDMETHOD.",
       "",
       "ENDCLASS."
     ],
-    "description": "ALV class scafolding"
+    "description": "(ADV ABAP)ALV class scafolding"
   },
   "Class_Simple": {
-    "prefix": "(adv)class",
+    "prefix": "class_basic",
     "body": [
       "CLASS lcl_${TM_FILENAME/[\\.-]/_/g} DEFINITION CREATE PRIVATE FINAL.",
       "",
@@ -104,6 +116,7 @@
       "",
       "ENDCLASS."
     ],
-    "description": "Simple class scafolding"
+    "description": "(ADV ABAP)Simple class scafolding"
   },
+  
 }

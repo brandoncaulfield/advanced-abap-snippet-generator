@@ -19,12 +19,15 @@ Extensions:
 
 ## Extension Settings
 
+Should be plug and play.
 
 ## Known Issues
 
+None Yet.
 
 ## Release Notes
 
+Expect minor release as more snippets are added.
 
 ### 1.0.0
 
