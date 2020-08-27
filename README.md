@@ -32,6 +32,10 @@ None Yet.
 
 Expect minor release as more snippets are added.
 
+### 1.2.1
+
+Added some comment headers
+
 ### 1.0.0
 
 Initial release of advanced-abap-snippet-generator
