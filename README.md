@@ -1,4 +1,4 @@
-# advanced-abap-snippet-generator README
+# Advanced(adv) ABAP Snippet Generator README
 
 
 ## Features
