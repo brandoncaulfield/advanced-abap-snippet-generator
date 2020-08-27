@@ -7,6 +7,9 @@ Quick and easy advanced ABAP code snippets for VS Code you can use to help speed
 
 ![Demo](https://user-images.githubusercontent.com/19891236/91459663-ca8d4280-e87e-11ea-965a-41612d57721a.gif)
 
+Just start typing commands like:
+* class...
+* comment...
 
 ## Requirements
 
