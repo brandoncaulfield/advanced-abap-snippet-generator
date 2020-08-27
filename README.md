@@ -1,4 +1,4 @@
-# Advanced(adv) ABAP Snippet Generator README
+# Advanced ABAP (ADV ABAP) Snippet Generator README
 
 
 ## Features
@@ -32,7 +32,7 @@ None Yet.
 
 Expect minor release as more snippets are added.
 
-### 1.2.1
+### 1.2.3
 
 Added some comment headers
 
