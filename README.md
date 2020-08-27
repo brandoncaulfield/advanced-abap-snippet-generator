@@ -5,7 +5,7 @@
 
 Quick and easy advanced ABAP code snippets for VS Code you can use to help speed up your development. For example, if you need to create an instance class on the fly then we've got you covered! 
 
-![Demo](https://user-images.githubusercontent.com/19891236/91459663-ca8d4280-e87e-11ea-965a-41612d57721a.gif)
+![Demo](https://user-images.githubusercontent.com/19891236/91463343-3376b980-e883-11ea-8060-8300be179eac.gif)
 
 Just start typing commands like:
 * class...
