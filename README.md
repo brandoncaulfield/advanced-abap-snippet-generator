@@ -34,7 +34,7 @@ None Yet.
 
 Expect minor release as more snippets are added.
 
-### 1.2.4
+### 1.2.5
 
 Added some display scafolding
 
