@@ -1,4 +1,11 @@
 {
+  "Display Something Quickly": {
+    "prefix": "disp",
+    "body": [
+      "cl_demo_output=>display( |Display your thing here...| )."
+    ],
+    "description": "(ADV ABAP)Quick Disply"
+  },
   "Comment Header Simple": {
     "prefix": "comment_hdr_01",
     "body": [
