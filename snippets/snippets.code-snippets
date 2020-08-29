@@ -6,6 +6,29 @@
     ],
     "description": "(ADV ABAP)Quick Disply"
   },
+  "ALV Display": {
+    "prefix": "alv",
+    "body": [
+      "DATA: lo_salv_table TYPE REF TO cl_salv_table.",
+      "",
+      "TRY.",
+      "\tcl_salv_table=>factory(",
+      "*  EXPORTING",
+      "*    list_display   = if_salv_c_bool_sap=>false \" ALV Displayed in List Mode",
+      "*    r_container    =                           \" Abstract Container for GUI Controls",
+      "*    container_name =",
+      "\tIMPORTING",
+      "\t\tr_salv_table   =  lo_salv_table                         \" Basis Class Simple ALV Tables",
+      "\tCHANGING",
+      "\t\tt_table        = \" Add table here...",
+      "\t).",
+      "\tCATCH cx_salv_msg into data(lx_salv_msg). \" ALV: General Error Class with Message",
+      "ENDTRY.",
+      "",
+      "lo_salv_table->display( ).",
+    ],
+    "description": "(ADV ABAP)Quick ALV Table Output"
+  },
   "Comment Header Simple": {
     "prefix": "comment_hdr_01",
     "body": [
@@ -109,7 +132,7 @@
     "description": "(ADV ABAP)ALV class scafolding"
   },
   "Class_Simple": {
-    "prefix": "class_basic",
+    "prefix": "class_basic",  
     "body": [
       "CLASS lcl_${TM_FILENAME/[\\.-]/_/g} DEFINITION CREATE PRIVATE FINAL.",
       "",
