@@ -8,10 +8,13 @@ Quick and easy advanced ABAP code snippets for VS Code you can use to help speed
 ![Demo](https://user-images.githubusercontent.com/19891236/91463343-3376b980-e883-11ea-8060-8300be179eac.gif)
 
 Just start typing commands like:
-* disp - quick display using cl_demo_output.
-* alv - alv scafolding
-* class - different class scafolding
-* comment - some comment structures
+
+| Command  | Snippet |
+| -------: | ------- |
+| `disp->` | quick display using cl_demo_output |
+| `alv->` | alv scafolding |
+| `class->` | different class scafolding |
+| `comment->` | some comment structures |
 
 ## Requirements
 
