@@ -149,5 +149,25 @@
     ],
     "description": "(ADV ABAP)Simple class scafolding"
   },
+  "SELECT_Basic": {
+    "prefix": "select_basic",  
+    "body": [
+      "SELECT ${1:fields}",
+      "FROM ${2:table}",
+      "INTO table @DATA(${3:lt_name}).",
+      "${0}"
+    ],
+    "description": "(ADV ABAP)Simple select statement"
+  },
+  "REDUCE_Table": {
+    "prefix": "reduce_table",  
+    "body": [
+      "REDUCE ${1:i}( INIT ${2:x} = 0",
+      "\t\tFOR ${3:ls_struct} IN ${4:lt_table}",
+      "\t\tNEXT ${2:x} = ${2:x} + ${3:ls_struct} ).",
+      "${0}"
+    ],
+    "description": "(ADV ABAP)Simple reduce for a table "
+  }
   
 }
