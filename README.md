@@ -14,6 +14,8 @@ Just start typing commands like:
 | `disp->` | quick display using cl_demo_output |
 | `alv->` | alv scafolding |
 | `class->` | different class scafolding |
+| `select->` | Simple select |
+| `->` | reduce operator for table reduction |
 | `comment->` | some comment structures |
 
 ## Requirements
@@ -36,6 +38,10 @@ None Yet.
 ## Release Notes
 
 Expect minor release as more snippets are added.
+
+### 1.2.8
+
+Added SELECT and REDUCE
 
 ### 1.2.5
 
